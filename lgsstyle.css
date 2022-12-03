@@ -14,6 +14,7 @@ span {
 	display: inline-block;
 }
 
+
 .up{
 	width:100%;
 	text-align:center;
@@ -60,7 +61,7 @@ span {
 
 .contact{
 	float:flex-direction;
-	width: 700;
+	width: 50%;
 	height:4cm;
 	font-size:21;
 	color:white;
@@ -71,10 +72,20 @@ span {
 	font-size:20;
 }
 
+.facebook-logo {
+	width:10%;
+}
+
+.mail-logo {
+	width:9.5%;
+}
+
+.whatsapp-logo {
+	width:9.5%;
+}
+
 #specialstyle1{
 	background-color:white;
 	width:20%;
-	font-size:24;
+	font-size:20;
 }
-
-
