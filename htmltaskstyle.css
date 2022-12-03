@@ -59,6 +59,7 @@ a:hover, a:active {
 @media only screen and (max-width:450px){
 	body {
 		background-size: 120rem 50rem;
+		font-family:Tahoma;
 	}
 	
 	.main-image {
