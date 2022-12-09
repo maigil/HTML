@@ -14,7 +14,7 @@ p {
 	font-size:33;
 }
 	
-a:link, a:visited {
+/* a:link, a:visited {
 	background-color: white;
 	color: black;
 	border: 4px solid orange;
@@ -25,12 +25,12 @@ a:link, a:visited {
 	cursor: pointer;
 	margin-right: auto;
     margin-left: 45%;
-}
+} */
 
-a:hover, a:active {
+/* a:hover, a:active {
 	background-color: orange;
 	color: white;
-}
+} */
 
 
 .main-image {
@@ -42,6 +42,9 @@ a:hover, a:active {
 	position: relative;
 	left: 7.5%;
 	border: 0.15rem solid #D0D0D0;
+	background-image: url("images/allcountries.jpg");
+
+	
 }
 
 .text-title {
@@ -50,6 +53,73 @@ a:hover, a:active {
 	transform: translate (-50%, -50%);
 	color: black;
 	font-size: 45px;
-	left: 15%;
+	width: 100%;
 	top: 63%;
 }
+
+.letGetItStarted{
+	display: flex;
+	justify-content: center;
+}
+
+.letGetItStarted a:link, a:visited {
+	background-color: white;
+	color: black;
+	border: 4px solid orange;
+	padding: 12px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+
+} 
+
+.letGetItStarted a:hover, a:active {
+	background-color: orange;
+	color: white;
+}
+
+
+
+/* mobile css */
+@media only screen and (max-width: 600px) {
+	.body{
+		display: flex;
+		justify-content:space-around ;
+	}
+
+	.main-image {
+		height: 45%;
+		width: 85%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		
+		border: 0.15rem solid #D0D0D0;
+		background-image: url("https://cdn.pixabay.com/photo/2016/03/31/20/41/countries-1295969_960_720.png");
+		border-radius: 20%;
+		
+	}
+	.text-title {
+    	text-align: center;
+		width: 100%;
+		transform: translate (-50%, -50%);
+		color: black;
+		font-size: 30px;
+		top: 38.5%;
+	
+	}
+
+	span {
+		text-align: center;
+		top:20%;	
+	}
+
+	.enjoyInfo{
+		font-size:.6em;
+	}
+
+  }
+
+

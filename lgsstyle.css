@@ -1,91 +1,167 @@
-
-body  {
-	background-image: url("https://cdn.pixabay.com/photo/2017/06/23/23/46/background-2436334_960_720.jpg");
-	background-repeat: no-repeat;
-	background-size: 2000px 2010px;
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2017/06/23/23/46/background-2436334_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: 2000px 2010px;
+ overflow-x:hidden;
 }
 
 span {
-	background-color: orange;
-	color: black;
-	padding: 15px 25px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
+  background-color: orange;
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
-
-.up{
-	width:100%;
-	text-align:center;
-	text-decoration:underline;
-	text-decoration:bold;
-	color:blue;
-	justify-content:center;
+.up {
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration: bold;
+  color: blue;
+  justify-content: center;
 }
 
-.page{
-	width:100%;
-	height:100%;
-	display: flex;
-    flex-direction: column;	
-	font-family:tahoma;
+.page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: tahoma;
 }
 
-.row{
-	width:100%;
-	display:flex;
-    justify-content: space-around;
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
 }
 
 .column {
-	float:flex;
-	width: 500px;
-	height:590px;
-	padding: 5px;
+  float: flex;
+  width: 500px;
+  height: 590px;
+  padding: 5px;
+
+}
+.column ol{
+	padding: 0%;
+}
+.photo {
+  width: 485px;
+  float: center;
 }
 
-.photo{
-	width:485px;
-	float:center;
+.down {
+  width: 100%;
+  height: 4cm;
+  font-size: 21;
+  background-color: #000c58;
+  display: flex;
+  justify-content: space-around;
 }
 
-.down{
-	width:100%;
-	height:4cm;
-	font-size:21;
-	background-color:#000c58;
-	display:flex;
-    justify-content: space-around;
+.contact {
+  float: flex-direction;
+  width: 50%;
+  height: 4cm;
+  font-size: 21;
+  color: white;
+  text-align: center;
 }
 
-.contact{
-	float:flex-direction;
-	width: 50%;
-	height:4cm;
-	font-size:21;
-	color:white;
-	text-align:center;
-}
-
-.big{
-	font-size:20;
+.big {
+  font-size: 20;
 }
 
 .facebook-logo {
-	width:10%;
+  width: 10%;
 }
 
 .mail-logo {
-	width:9.5%;
+  width: 9.5%;
 }
 
 .whatsapp-logo {
-	width:9.5%;
+  width: 9.5%;
 }
 
-#specialstyle1{
-	background-color:white;
-	width:20%;
-	font-size:20;
+#specialstyle1 {
+  width: 20%;
+  font-size: 20;
+}
+
+@media only screen and (max-width: 600px) {
+	*{
+		margin: 0%;
+		padding: 0%;
+		border: 0;
+	}
+  body {
+    margin:0%;
+    width: auto;
+    background-image: url("https://cdn.pixabay.com/photo/2017/06/23/23/46/background-2436334_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: 6000px 6010px;
+
+
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .photo {
+    width: 25em;
+    /* justify-content: center; */
+	/* float: auto; */
+  }
+  .column {
+    float: flex;
+    width: auto;
+    height: auto;
+    padding: 0px 0px 1.3em 0px;
+    margin: 1em 0px 1em 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+  }
+  .column ol{
+	padding: 0px;
+  }
+
+  span {
+	background-color: orange;
+	color: black;
+	padding: 0px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.2em;
+  height: 2.2rem;
+  padding: 5px 10px;
+  padding-top: 20px;
+
+  }
+
+  .column a{
+
+}
+.contact{
+  width: 100%;
+}
+
+.facebook-logo {
+  width: 24%;
+}
+
+.mail-logo {
+  width: 22%;
+}
+
+.whatsapp-logo {
+  width: 22%;
+}
+
 }
