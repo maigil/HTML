@@ -1,4 +1,7 @@
-
+*{
+	margin: 0%;
+	padding: 0%;
+}
 body {
 	font-family:Tahoma;
 	background-image: url("https://cdn.pixabay.com/photo/2017/03/14/16/56/banner-2143726_960_720.jpg");
